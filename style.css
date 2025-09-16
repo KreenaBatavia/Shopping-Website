@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*----Navbar----*/
+
+.nav-logo{
+    font-size: 30px;
+    color: #cccccc;
+}
+
+.links{
+    color: #cccccc;
+    margin-left: 25px;
+    border-bottom: 2px solid transparent;
+    display: inline-block;
+}
+
+.icon{
+    font-size:large;
+    margin-left: 10px;
+}
+
+.links:hover,
+.links:active{
+    color: #ffffff;
+    border-bottom: 2px solid white;
+}
+
+.hamburger-nav{
+    text-align: center;
+}
+
+/*----Homepage cards----*/
+
+.card{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.discount-badge {
+    position: absolute;
+    top: 15px;
+    left: -33px;
+    transform: rotate(-45deg);
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.card:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.card img {
+    height: 250px;
+    width: 100%;
+    object-fit:contain;
+}
+
+.card-body {
+    padding: 10px;
+}
+
+.card-title {
+    font-size: 1rem;
+}
+
+.card .btn {
+    padding: 5px 10px;
+    font-size: 0.9rem;
+}
+
+.btn-container {
+  text-align: center;  
+}
+
+.cart-btn{
+    color: white;
+    border: none;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+/*----Product Details----*/
+
+.product-detail-image-div{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.custom-border{
+    border: 3px solid #8ea3a3 ;
+    border-radius: 40px;
+}
+
+#product-detail h2{
+    margin-top: 25px;
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+
+#product-detail p{
+    font-size: 16px; 
+    text-align: justify;
+}
+
+.custom-p{
+    padding-bottom: 20px;
+}
+
+.details-cart-btn{
+    margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+
+    .card-body{
+        text-align: center;
+    }
+
+    .product-detail-image-div{
+        padding-left: 20px;
+        padding-right: 20px;
+    } 
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+    .product-detail-image-div{
+        padding-left: 50px;
+        padding-right: 50px;
+    } 
+}
+
+@media (max-width: 320px) {
+
+    .card{
+        display: block;
+        text-align: center;
+    }
+
+    .card img{
+        height: 250px;
+        width: 200px;
+    }
+
+    .discount-badge {
+        font-size: 13px;
+    }
+    
+}
+
+
+@media (min-width: 1441px)
+{
+    #product-detail img{
+        height: 600px;
+        width: 600px;
+    }
+}

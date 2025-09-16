@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "name": "Samsung Galaxy S25 Ultra",
+        "image": "images/mobile.jpg",
+        "price": "₹1,29,999",
+        "discount": "10% off",
+        "description": "Meet the new Galaxy S25 Ultra, the smartphone with titanium colors, a built-in S pen, best camera, custom-made processor, long-lasting battery and much more...."
+
+    },
+
+    {
+        "id": 2,
+        "name": "boAt Rockerz 650 Pro",
+        "image": "images/headphones.jpg",
+        "price": "₹2,999",
+        "discount": "10% off",
+        "description": "The boAt Rockerz 650 Pro is a wireless over-ear headphone offering features like long battery life, Dolby Audio, and touch/swipe controls. "
+    },
+
+    {
+        "id": 3,
+        "name": "HP EliteBook Ultra",
+        "image": "images/laptop.jpg",
+        "price": "₹1,69,934",
+        "discount": "10% off",
+        "description": "The HP EliteBook Ultra is a business laptop designed for next-generation AI capabilities. It features a 14-inch OLED IPS touch display with Intel Arc Graphics, an Intel Core Ultra 7 processor, and up to 32GB of LPDDR5x RAM. "
+    },
+
+    {
+        "id": 4,
+        "name": "boAt Stone Spinx Pro",
+        "image": "images/speakers.webp",
+        "price": "₹2,999",
+        "discount": "10% off",
+        "description": "Portable Speaker with 20W RMS Sound, 8 Hours Playback, Bluetooth v5.0, Dynamic RGB Lights, IPX4 Rating."
+    },
+
+    {
+        "id": 5,
+        "name": "Galaxy Watch Active2",
+        "image": "images/watch.jpg",
+        "price": "₹2,599",
+        "discount": "10% off",
+        "description": "Find your fitness partner in Galaxy Watch Active2, a Samsung smartwatch that tracks your sleep and heart rate, pairs to your phone and fits your look."
+    },
+
+    {
+        "id": 6,
+        "name": "boAt Nirvana X TWS",
+        "image": "images/airdopes.webp",
+        "price": "₹2,999",
+        "discount": "10% off",
+        "description": "Wireless Earbuds with Knowles dual drivers, Hi-Res Audio LDAC, 40 Hours Playback, boAt Hi-Fi Sound, ENx™ Technology, Dual Pairing."
+    }
+
+
+]
